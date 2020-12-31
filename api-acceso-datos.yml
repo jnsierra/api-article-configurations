@@ -2,3 +2,6 @@ server:
   servlet:
     context-path: /api-datos
   port: 5003
+  
+configuracion:
+  texto: Esto es una prueba
