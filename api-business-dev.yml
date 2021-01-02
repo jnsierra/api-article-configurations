@@ -22,8 +22,6 @@ jwt:
   secret: a6e21884876f43819523c31033fa697e
 
 spring:
-  application:
-    name: business-api
   sleuth:
     sampler:
       probability: 1.0
