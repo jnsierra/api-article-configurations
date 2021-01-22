@@ -1,0 +1,42 @@
+server:
+  servlet:
+    context-path: /api-business
+  port: 5000
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://server-discovery:1111/eureka
+
+
+logging:
+  level:
+    co:
+      com:
+        ud:
+          business:
+            rest:
+              client: DEBUG
+
+jwt:
+  secret: a6e21884876f43819523c31033fa697e
+
+spring:
+  sleuth:
+    sampler:
+      probability: 1.0
+  zipkin:
+    base-url: http://service-zipkin:9411
+    sender:
+      type: rabbit
+      
+endpoint:
+  ms-acceso-datos:
+    protocol: http://
+    host: localhost
+    port: 5003
+    base: /api-datos
+    usuarios:
+      version: /v.1
+      url: /usuarios
+      name: usuariosCliente
