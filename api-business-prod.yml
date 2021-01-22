@@ -33,7 +33,7 @@ spring:
 endpoint:
   ms-acceso-datos:
     protocol: http://
-    host: localhost
+    host: service-acceso-datos
     port: 5003
     base: /api-datos
     usuarios:
