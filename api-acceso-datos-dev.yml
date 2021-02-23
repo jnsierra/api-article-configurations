@@ -23,7 +23,7 @@ spring:
         jdbc:
           lob:
             non_contextual_creation: true
-    show-sql: false
+    show-sql: true
     generate-ddl: true
   org:
     hibernate:
