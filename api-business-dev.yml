@@ -36,7 +36,12 @@ endpoint:
     host: localhost
     port: 5003
     base: /api-datos
+    personas:
+      version: /v.1
+      url: /personas
+      name: personasCliente
     usuarios:
       version: /v.1
       url: /usuarios
       name: usuariosCliente
+   
