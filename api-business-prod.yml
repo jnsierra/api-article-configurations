@@ -36,6 +36,10 @@ endpoint:
     host: service-acceso-datos
     port: 5003
     base: /api-datos
+    ideas:
+      version: /v.1
+      url: /ideas
+      name: ideasCliente
     personas:
       version: /v.1
       url: /personas
