@@ -7,7 +7,8 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:1111/eureka
-
+jwt:
+  secret: a6e21884876f43819523c31033fa697e
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
