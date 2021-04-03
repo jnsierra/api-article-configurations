@@ -20,18 +20,12 @@ spring:
         - id: api-acceso-datos
           uri: lb://api-acceso-datos 
           predicates:
-            - Path=/api-datos/**
-            - Header=Authorization, Bearer (.*)
-          filters:
-            - RemoveRequestHeader=Cookie
+           - Path=/api-datos/**
         - id: api-business
           uri: lb://api-business 
           predicates:
            - Path=/api-business/**
-           - Header=Authorization, Bearer (.*)
-          filters:
-            - RemoveRequestHeader=Cookie
-
+           
 logging:
   level:
     org.springframework.cloud.gateway: TRACE
