@@ -21,10 +21,16 @@ spring:
           uri: lb://api-acceso-datos 
           predicates:
             - Path=/api-datos/**
+            - Header=Authorization, Bearer (.*)
+          filters:
+            - RemoveRequestHeader=Cookie
         - id: ms-business
           uri: lb://api-business 
           predicates:
            - Path=/api-business/**
+           - Header=Authorization, Bearer (.*)
+          filters:
+            - RemoveRequestHeader=Cookie
 
 logging:
   level:
