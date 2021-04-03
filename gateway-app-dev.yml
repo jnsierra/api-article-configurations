@@ -24,7 +24,7 @@ spring:
             - Header=Authorization, Bearer (.*)
           filters:
             - RemoveRequestHeader=Cookie
-        - id: ms-business
+        - id: api-business
           uri: lb://api-business 
           predicates:
            - Path=/api-business/**
