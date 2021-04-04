@@ -18,11 +18,11 @@ spring:
     gateway:
       routes:
         - id: api-acceso-datos
-          uri: lb://api-acceso-datos 
+          uri: http://service-acceso-datos:5003/ 
           predicates:
             - Path=/api-datos/**
         - id: api-business
-          uri: lb://api-business 
+          uri: http://service-business:5000/
           predicates:
            - Path=/api-business/**
 
