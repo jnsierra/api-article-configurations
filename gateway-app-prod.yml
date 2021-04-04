@@ -17,12 +17,12 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: ms-datos
-          uri: http://service-acceso-datos:5003/
+        - id: api-acceso-datos
+          uri: lb://api-acceso-datos 
           predicates:
             - Path=/api-datos/**
-        - id: ms-business
-          uri: http://service-business:5000/
+        - id: api-business
+          uri: lb://api-business 
           predicates:
            - Path=/api-business/**
 
