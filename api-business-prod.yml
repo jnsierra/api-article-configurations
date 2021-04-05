@@ -20,6 +20,10 @@ logging:
 
 jwt:
   secret: a6e21884876f43819523c31033fa697e
+  
+repositorio:
+  formato:
+    ubicacion: /opt/repository/documentos/formatos/
 
 spring:
   sleuth:
