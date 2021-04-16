@@ -8,6 +8,9 @@ eureka:
     serviceUrl:
       defaultZone: http://server-discovery:1111/eureka
 
+path:
+  repo:
+    idea: /repository/documentos/usuario/
 
 logging:
   level:
