@@ -7,6 +7,10 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:1111/eureka
+      
+path:
+  repo:
+    idea: /repository/documentos/usuario/
 
 
 logging:
