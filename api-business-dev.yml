@@ -47,7 +47,7 @@ endpoint:
     formato-ideas:
       version: /v.1
       url: /formatoidea
-      name: ideasCliente
+      name: formatoIdeasCliente
     ideas:
       version: /v.1
       url: /ideas
