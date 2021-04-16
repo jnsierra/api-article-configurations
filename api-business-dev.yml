@@ -40,6 +40,10 @@ endpoint:
     host: localhost
     port: 5003
     base: /api-datos
+    formato-ideas:
+      version: /v.1
+      url: /formatoidea
+      name: ideasCliente
     ideas:
       version: /v.1
       url: /ideas
