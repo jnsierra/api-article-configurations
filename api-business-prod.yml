@@ -43,6 +43,10 @@ endpoint:
     host: service-acceso-datos
     port: 5003
     base: /api-datos
+    articulos:
+      version: /v.1
+      url: /articulos
+      name: articulosCliente
     formato-ideas:
       version: /v.1
       url: /formatoidea
