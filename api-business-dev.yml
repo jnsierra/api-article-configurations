@@ -45,6 +45,10 @@ endpoint:
     host: localhost
     port: 5003
     base: /api-datos
+    comentarios:
+      version: /v.1
+      url: /comentario
+      name: comentarioCliente
     articulos:
       version: /v.1
       url: /articulos
