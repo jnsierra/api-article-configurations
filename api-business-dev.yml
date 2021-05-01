@@ -14,14 +14,6 @@ path:
     comentarios: /repository/documentos/comentario/
 
 
-logging:
-  level:
-    co:
-      com:
-        ud:
-          business:
-            rest:
-              client: DEBUG
 
 jwt:
   secret: a6e21884876f43819523c31033fa697e
