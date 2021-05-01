@@ -27,8 +27,7 @@ jwt:
   
 repositorio:
   formato:
-    ubicacion: /opt/repository/documentos/formatos/
-    comentarios: /opt/repository/documentos/comentario/
+    ubicacion: /opt/repository/documentos/formatos/formato_001.docx
 
 spring:
   sleuth:
