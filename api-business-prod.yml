@@ -10,8 +10,8 @@ eureka:
 
 path:
   repo:
-    idea: /repository/documentos/usuario/
-    comentarios: /repository/documentos/comentario/
+    idea: /opt/repository/documentos/usuario/
+    comentarios: /opt/repository/documentos/comentario/
 
 jwt:
   secret: a6e21884876f43819523c31033fa697e
