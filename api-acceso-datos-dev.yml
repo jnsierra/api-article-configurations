@@ -12,7 +12,7 @@ jwt:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://databasearticulos:5432/articuloss
+    url: jdbc:postgresql://databasearticulos:5432/articulos
     username: postgres
     password: 12345678
   liquibase:
