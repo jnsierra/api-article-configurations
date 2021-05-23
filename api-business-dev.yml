@@ -27,6 +27,8 @@ jwt:
   secret: a6e21884876f43819523c31033fa697e
 
 repositorio:
+  formatoArt:
+    ubicacion: C:\\repository\\documentos\\formatos\\formato_002.docx
   formato:
     ubicacion: C:\\repository\\documentos\\formatos\\formato_001.docx
 
