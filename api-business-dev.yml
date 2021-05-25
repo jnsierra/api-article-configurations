@@ -28,7 +28,7 @@ jwt:
 
 repositorio:
   formatoArt:
-    ubicacion: C:\\repository\\documentos\\formatos\\formato_002.docx
+    ubicacion: C:\\repository\\documentos\\formatos\\
     docDestino: /repository/documentos/articulos/
   formato:
     ubicacion: C:\\repository\\documentos\\formatos\\formato_001.docx
