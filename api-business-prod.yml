@@ -12,6 +12,7 @@ path:
   repo:
     idea: /opt/repository/documentos/usuario/
     comentarios: /opt/repository/documentos/comentario/
+    articulos: /opt/repository/documentos/articulos_usuario/
 
 jwt:
   secret: a6e21884876f43819523c31033fa697e
