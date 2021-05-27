@@ -48,6 +48,10 @@ endpoint:
     host: localhost
     port: 5003
     base: /api-datos
+    formato:
+      version: /v.1
+      url: /formato
+      name: formatoCliente
     parrafos:
       version: /v.1
       url: /parrafo
