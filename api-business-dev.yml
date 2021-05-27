@@ -12,6 +12,7 @@ path:
   repo:
     idea: /repository/documentos/usuario/
     comentarios: /repository/documentos/comentario/
+    articulos: /repository/documentos/articulos_usuario/
 
 logging:
   level:
