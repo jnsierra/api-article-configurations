@@ -16,11 +16,14 @@ path:
 
 jwt:
   secret: a6e21884876f43819523c31033fa697e
-  
+    
 repositorio:
+  formatoArt:
+    ubicacion: /opt/repository/documentos/formatos/
+    docDestino: /opt/repository/documentos/articulos/
   formato:
     ubicacion: /opt/repository/documentos/formatos/formato_001.docx
-
+    
 spring:
   sleuth:
     sampler:
