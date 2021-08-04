@@ -21,6 +21,7 @@ repositorio:
   formatoArt:
     ubicacion: /opt/repository/documentos/formatos/
     docDestino: /opt/repository/documentos/articulos/
+    cartaPublicacion: /opt/repository/documentos/carta/
   formato:
     ubicacion: /opt/repository/documentos/formatos/formato_001.docx
     
