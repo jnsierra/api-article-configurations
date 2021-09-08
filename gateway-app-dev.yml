@@ -29,6 +29,12 @@ spring:
            - Path=/api-business/**
           filters:
             - RemoveRequestHeader=Cookie
+        - id: api-mail
+          uri: lb://api-mail 
+          predicates:
+           - Path=/api-mail/**
+          filters:
+            - RemoveRequestHeader=Cookie
            
 logging:
   level:
